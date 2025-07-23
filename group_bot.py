@@ -3,7 +3,7 @@ from telegram import Update, ChatMember, ChatPermissions
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 from collections import defaultdict
 
-BOT_TOKEN ='8085465476:AAHWrYGQMMOO318qS2xFyZeKkflzkuwnEfE'' ' os.environ.get("BOT_TOKEN")
+BOT_TOKEN ='8085465476:AAHWrYGQMMOO318qS2xFyZeKkflzkuwnEfE'
 
 # دیتابیس ساده هشدارها (در حافظه)
 warnings = defaultdict(int)
